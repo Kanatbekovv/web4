@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/thirdpage.css" />
+    <script src="https://kit.fontawesome.com/d65c01b75a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  
+    <header>
+      <div class="header-wrapper">
+        <div class="header-flex">
+          <h1>Clocer</h1>
+
+          <nav>
+            <a href="./index.html">Главная</a>
+            <a href="./corz.html">Купить часы</a>
+            <a href="./thirdpage.html">Новости</a>
+          </nav>
+          <button id="changeColorButton">Change Background Color</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="title">
+        <h1>Hедавные Hовости</h1>
+    </div>
+
+    <div class="news-card">
+        
+    <div class="card">
+        <h2>Watch 8</h2>
+        <div class="image"> <img src="./img/header-bg.jpg" alt=""></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="date">
+            <p>16 Sen 2024</p>
+            <p>Share <i class="fas fa-share-square"></i></p>
+        </div>
+    </div>
+    <div class="card">
+        <h2>Watch Ultra</h2>
+        <div class="image"> <img src="./img/tile_health__exde7a2pwjau_large.jpg" alt=""></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="date">
+            <p>16 Sen 2024</p>
+            <p>Share <i class="fas fa-share-square"></i></p>
+        </div>
+    </div>
+    <div class="card">
+        <h2>Watch 9</h2>
+        <div class="image"> <img src="./img/header-bg-2.jpg" alt=""></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="date">
+            <p>16 Sen 2024</p>
+            <p>Share <i class="fas fa-share-square"></i></p>
+        </div>
+    </div>
+</div>
+<div id="to-do">
+<div class="todo-container">
+  <h1>Notes for future purchase</h1>
+  <div class="input-group">
+      <input type="text" id="taskInput" placeholder="Enter a new task...">
+      <button id="addTaskButton">Add Task</button>
+  </div>
+  <ul id="taskList"></ul>
+  <p class="error-message" id="errorMessage"></p>
+</div>
+<div class="sorting-container">
+  <h1>Number Sorting</h1>
+  <div class="input-group">
+      <input type="text" id="numberInput" placeholder="Enter numbers separated by commas">
+      <select id="sortOrder">
+          <option value="ascending">Ascending</option>
+          <option value="descending">Descending</option>
+      </select>
+      <button id="sortButton">Sort</button>
+  </div>
+  <p class="error-message" id="errorMessage"></p>
+  <p class="sorted-result" id="sortedResult"></p>
+</div>
+</div>
+<div id="game">
+<div class="game-container">
+  <h1>Random Number Guessing Game</h1>
+  <p>Guess a number between 1 and 100:</p>
+  <input type="number" id="guessInput" placeholder="Enter your guess">
+  <button id="submitGuessButton">Submit Guess</button>
+  <p id="feedbackMessage"></p>
+  <p id="attemptsMessage"></p>
+</div>
+</div>
+
+
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">shop</a></li>
+            
+          </ul>
+        </div>
+        
+       <div class="footer-col"> 
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="https://www.instagram.com/kanatbekovvw/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/kanatbekovvw/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/kanatbekovvw/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/kanatbekovvw/"><i class="fab fa-linkedin-in"></i></a>
+            <h1 style="color:white; font-size:150%;">call center</h1>
+            <h1 style="color:white; font-size:200%;">+7(707)160 14-29</h1> 
+           </div>
+        </div>
+        <div class="footer-col"> 
+          <h4>We in the map</h4>
+        <div class="footer-col1">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.9542111862174!2d71.4157479762519!3d51.090852541048385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424585a605525605%3A0x4dff4a1973f7567e!2sAstana%20IT%20University!5e0!3m2!1sru!2skz!4v1700830561413!5m2!1sru!2skz" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        </div>
+      </div>
+    </div>
+ </footer>
+ <script src="./index.js"></script>
+  </body>
+</html>
